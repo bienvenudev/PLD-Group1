@@ -9,3 +9,7 @@ def Questionnaire(question, choices, correct_answer):
 def check_answer(corr_answ, answ):
     if corr_answ == answ:
         print("Correct answer!")
+    else:
+        print("False answer!")
+
+level = input("Choose a level (1, 2, or 3): ")
