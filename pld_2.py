@@ -13,3 +13,8 @@ def check_answer(corr_answ, answ):
         print("False answer!")
 
 level = input("Choose a level (1, 2, or 3): ")
+
+Questionnaire("Which python function displays a message on the screen ?",
+              ["input", "print", "printf"], "2")
+Questionnaire("Which of the following elements is a tuple?",
+              ["a=[0,2]", "b={'name':'Gaga'}", "c=(8,5)"], "3")
