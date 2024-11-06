@@ -5,3 +5,7 @@ def Questionnaire(question, choices, correct_answer):
     answer = input("Enter the correct answer (between 1 and 3): ")
     check_answer(correct_answer, answer)
     print()
+
+def check_answer(corr_answ, answ):
+    if corr_answ == answ:
+        print("Correct answer!")
