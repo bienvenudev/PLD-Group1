@@ -9,3 +9,16 @@ def display_welcome_screen():
     print("- Each correct answer is worth 1 point")
     print("- No penalty for wrong answers")
     input("\nPress Enter to continue...")
+    
+def select_difficulty():
+    """Allow user to select difficulty level."""
+    while True:
+        level = input("Choose a level (1, 2, or 3): ")
+        try:
+            level = int(level)
+            if level in [1, 2, 3]:
+                return level
+            else:
+                print("ERROR!! Please choose 1, 2 or 3")
+        except:
+            print("ERROR!! The inpout must be an number")
