@@ -28,7 +28,7 @@ def display_questionnaire(question):
     print(question[0])
     for i in range(len(question[1])):
         print(f"  {i+1}- {question[1][i]}")
-    answer = input("Enter the correct answer (between 1 and 3): ")
+    answer = input("Enter your answer (1/2/3/4): ")
 
     if answer == question[2]:
         print("✓ Correct answer!\n")
