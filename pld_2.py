@@ -43,3 +43,11 @@ def start_questionnaire(questionnaire):
         if display_questionnaire(question): # if 'display_questionnaire' function returned 'True'
             marks +=1
     return marks
+
+# level one questionnaire implementation
+question1_1 = ["\nWhat is the correct file extension for Python files?",
+              [".pt", ".pyt", ".py", ".python"], "3"]
+question2_1 = ("Which python function displays a message on the screen ?",
+              ["input()", "print()", "printf()", "show()"], "2")
+question3_1 = ("Which of the following elements is a tuple?",
+              ["a=[0,2]", "b={'name':'Gaga'}", "c=(8,5)", "d=(2)"],"3")
