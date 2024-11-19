@@ -51,3 +51,9 @@ question2_1 = ("Which python function displays a message on the screen ?",
               ["input()", "print()", "printf()", "show()"], "2")
 question3_1 = ("Which of the following elements is a tuple?",
               ["a=[0,2]", "b={'name':'Gaga'}", "c=(8,5)", "d=(2)"],"3")
+question4_1 = ("Which of the following is the correct way to create a comment in Python?",
+              ["// This is a comment", "<!-- This is a comment -->", "/* This is a comment */",
+               "# This is a comment"], "4")
+question5_1 = ("What data type does the function input() return by default?",
+              ["str", "int", "float", "list"], "1")
+questionnaire_level_one = [question1_1, question2_1, question3_1, question4_1, question5_1]
