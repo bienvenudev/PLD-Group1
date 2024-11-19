@@ -13,7 +13,7 @@ def display_welcome_screen():
 def select_difficulty():
     """Allow user to select difficulty level."""
     while True:
-        level = input("Choose a level (1, 2, or 3): ")
+        level = input("Select difficulty level (1, 2, or 3): ")
         try:
             level = int(level)
             if level in [1, 2, 3]:
