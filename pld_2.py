@@ -22,3 +22,17 @@ def select_difficulty():
                 print("ERROR!! Please choose 1, 2 or 3")
         except:
             print("ERROR!! The inpout must be an number")
+
+def display_questionnaire(question):
+    """Displaying the questionnaire and check the answer"""
+    print(question[0])
+    for i in range(len(question[1])):
+        print(f"  {i+1}- {question[1][i]}")
+    answer = input("Enter the correct answer (between 1 and 3): ")
+
+    if answer == question[2]:
+        print("✓ Correct answer!\n")
+        return True
+    else:
+        print(f"✗ False answer! The correct answer is '{question[2]}'\n")
+        return False
