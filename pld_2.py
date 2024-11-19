@@ -36,3 +36,10 @@ def display_questionnaire(question):
     else:
         print(f"✗ False answer! The correct answer is '{question[2]}'\n")
         return False
+    
+def start_questionnaire(questionnaire):
+    marks = 0
+    for question in questionnaire:
+        if display_questionnaire(question): # if 'display_questionnaire' function returned 'True'
+            marks +=1
+    return marks
