@@ -57,3 +57,11 @@ question4_1 = ("Which of the following is the correct way to create a comment in
 question5_1 = ("What data type does the function input() return by default?",
               ["str", "int", "float", "list"], "1")
 questionnaire_level_one = [question1_1, question2_1, question3_1, question4_1, question5_1]
+
+# level two questionnaire implementation
+question1_2 = ("\nWhich of the following methods is used to add an element to a list?",
+              ["append()", "add()", "push()", "insert()"], "1")
+question2_2 = ("""What is the output of the following code?
+    for i in range(3):
+        print(i, end=" ")\n""",
+              ["1 1 2", "0 2 3", "0 1 2 (on separate lines)", "Error"], "2")
