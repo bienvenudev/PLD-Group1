@@ -70,4 +70,8 @@ question3_2 = ("What is the purpose of the 'break' statement in Python loops?",
                "To repeat the loop", "To terminate the loop immediately"], "4")
 question4_2 = ("What is the correct way to handle exceptions in Python?",
               ["try-except", "if-else", ".loop-control", "catch-finally"], "1")
-
+question5_2 = ("""What will be the output of the following code?
+    my_dict = {"a": 1, "b": 2}
+    print(my_dict.get("c", 'Not Found'))\n""",
+              ["None", "0", "Error", "Not Found"], "4")
+questionnaire_level_two = [question1_2, question2_2, question3_2, question4_2, question5_2]
