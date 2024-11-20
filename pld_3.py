@@ -75,3 +75,11 @@ question5_2 = ("""What will be the output of the following code?
     print(my_dict.get("c", 'Not Found'))\n""",
               ["None", "0", "Error", "Not Found"], "4")
 questionnaire_level_two = [question1_2, question2_2, question3_2, question4_2, question5_2]
+
+# level three questionnaire implementation
+question1_3 = ("\nWhich of the following is a correct syntax for defining a Python class?",
+              ["define MyClass:", "def MyClass:", "class MyClass[]:", "class MyClass:"], "4")
+question2_3 = ("What is the purpose of the @staticmethod decorator?",
+              ["To define a method that doesn’t require a class instance",
+               "To define a method that operates on the class itself",
+               "To define a private method", "To define an asynchronous method"], "1")
