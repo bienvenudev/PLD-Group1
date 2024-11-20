@@ -89,3 +89,9 @@ question4_3 = ("""What will be the output of this code?
 def func(a, b, c=3):
     return a + b + c
 print(func(2, 3))\n""", ["6", "Error", "5", "8"], "4")
+question5_3 = ("Which of the following correctly describes the @property decorator in Python?",
+              ["To make a method private to the class",
+               "To create a method that is only callable by the class itself",
+               "To define a method that acts as a getter for an attribute",
+               "To automatically synchronize threads accessing a method"], "3")
+questionnaire_level_three = [question1_3, question2_3, question3_3, question4_3, question5_3]
