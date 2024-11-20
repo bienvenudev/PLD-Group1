@@ -65,3 +65,9 @@ question2_2 = ("""What is the output of the following code?
     for i in range(3):
         print(i, end=" ")\n""",
               ["1 1 2", "0 2 3", "0 1 2 (on separate lines)", "Error"], "2")
+question3_2 = ("What is the purpose of the 'break' statement in Python loops?",
+              ["To pause the loop temporarily", "To skip the current iteration",
+               "To repeat the loop", "To terminate the loop immediately"], "4")
+question4_2 = ("What is the correct way to handle exceptions in Python?",
+              ["try-except", "if-else", ".loop-control", "catch-finally"], "1")
+
