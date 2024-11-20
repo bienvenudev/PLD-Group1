@@ -83,3 +83,9 @@ question2_3 = ("What is the purpose of the @staticmethod decorator?",
               ["To define a method that doesn’t require a class instance",
                "To define a method that operates on the class itself",
                "To define a private method", "To define an asynchronous method"], "1")
+question3_3 = ("What does the 'with' statement in Python help manage?",
+              ["Loops", "file handling", "Memory allocation", "Multi-threading"], "2")
+question4_3 = ("""What will be the output of this code?
+def func(a, b, c=3):
+    return a + b + c
+print(func(2, 3))\n""", ["6", "Error", "5", "8"], "4")
