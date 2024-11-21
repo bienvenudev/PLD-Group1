@@ -99,3 +99,11 @@ questionnaire_level_three = [question1_3, question2_3, question3_3, question4_3,
 # Calling functions to start the assessment
 display_welcome_screen()
 level = select_difficulty()
+
+questionnaire = []  # The list containing questionnaire of the selected level
+if level == 1:
+    questionnaire = questionnaire_level_one
+elif level == 2:
+    questionnaire = questionnaire_level_two
+elif level == 3:
+    questionnaire = questionnaire_level_three
