@@ -107,3 +107,6 @@ elif level == 2:
     questionnaire = questionnaire_level_two
 elif level == 3:
     questionnaire = questionnaire_level_three
+
+    score = start_questionnaire(questionnaire)
+    print(f"You have {score}/5")
