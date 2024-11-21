@@ -95,3 +95,7 @@ question5_3 = ("Which of the following correctly describes the @property decorat
                "To define a method that acts as a getter for an attribute",
                "To automatically synchronize threads accessing a method"], "3")
 questionnaire_level_three = [question1_3, question2_3, question3_3, question4_3, question5_3]
+
+# Calling functions to start the assessment
+display_welcome_screen()
+level = select_difficulty()
