@@ -4,13 +4,13 @@
 PyQuiz is an interactive command-line quiz application designed to test and improve Python programming knowledge across multiple difficulty levels.
 
 ## Authors
-- Gaddiel ([@Gaddiel](https://github.com/Gaddy01)
-- Adeodatus ([@Adeo](https://github.com/NK-Adeodatus)
-- Samuella ([@Samuella](https://github.com/isamuella)
-- Bienvenu ([@Bienvenu](https://github.com/bienvenudev)
-- Fred ([@Adossi](https://github.com/Adossi-design)
-- Vestine ([@Vestine](https://github.com/Umukundwa004)
-- Constantine ([@Constantine](https://github.com/codestantceasar)
+- Gaddiel ([@Gaddiel])(https://github.com/Gaddy01)
+- Adeodatus ([@Adeo])(https://github.com/NK-Adeodatus)
+- Samuella ([@Samuella])(https://github.com/isamuella)
+- Bienvenu ([@Bienvenu])(https://github.com/bienvenudev)
+- Fred ([@Adossi])(https://github.com/Adossi-design)
+- Vestine ([@Vestine])(https://github.com/Umukundwa004)
+- Constantine ([@Constantine])(https://github.com/codestantceasar)
 
 ## Features
 - Multiple difficulty levels (Beginner, Intermediate, Advanced)
